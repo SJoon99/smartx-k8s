@@ -13,7 +13,7 @@ spec:
   app:
     autoSync: true
     namespace: kube-system
-    patched: false
+    patched: true # Sandbox2 patch test: allow cluster preset values under patches/kubelet-csr-approver/values.yaml
     unsafe: true # kube-system
     useClusterValues: false
     features: []
