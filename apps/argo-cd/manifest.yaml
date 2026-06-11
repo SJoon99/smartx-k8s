@@ -13,7 +13,7 @@ spec:
   app:
     autoSync: true
     namespace: argo
-    patched: false
+    patched: true # Sandbox2 patch test: allow cluster preset values under patches/argo-cd/values.yaml
     unsafe: true # Argo CD
     useClusterValues: false
     features:
